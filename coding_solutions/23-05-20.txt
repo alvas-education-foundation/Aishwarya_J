@@ -1,0 +1,25 @@
+Program 1....Python Program to Print all Integers that Aren’t Divisible by Either 2 or 3 and Lie between 1 and 50
+
+
+for i in range(0,51):
+
+    if(i%2!=0&i%3!=0):
+
+        print(i)
+
+
+
+Program 2....Python Program to Check if a Number is a Palindrome
+
+
+n=int(input("Enter number:"))
+temp=n
+rev=0
+while(n>0):
+    dig=n%10
+    rev=rev*10+dig
+    n=n//10
+if(temp==rev):
+    print("The number is a palindrome!")
+else:
+    print("The number isn't a palindrome!")
